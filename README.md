@@ -19,7 +19,7 @@ markitdown-example/
 │   └── app.py
 ├── input/
 └── output/
-```
+
 
 ## Installazione
 
