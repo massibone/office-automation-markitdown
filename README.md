@@ -1,4 +1,4 @@
-# Office-automation-markitdown
+# Office-automation-markitdown and DOC_SITE
 
 
 # Python document intake with MarkItDown
@@ -38,3 +38,15 @@ Idee su come estendere il progetto:
 - invio del testo convertito a una pipeline RAG;
 - controlli su naming, metadati o qualità documentale.
 
+############## Docs Site Generator
+
+A minimal static site generator (Markdown → HTML) for project documentation.
+
+### Usage
+
+
+cd docs-site
+python3 -m venv venv && source venv/bin/activate
+pip install markdown jinja2
+python3 build.py
+cd site && python3 -m http.server 8000
