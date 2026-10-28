@@ -9,4 +9,4 @@ python3 -m venv venv && source venv/bin/activate
 pip install markdown jinja2
 python3 build.py
 cd site && python3 -m http.server 8000
-![index_md](/index_md.png)
+![index_md](index_md.png)
